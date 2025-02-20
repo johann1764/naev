@@ -26,6 +26,7 @@
   <trackmin>4000</trackmin>
   <trackmax>12000</trackmax>
   <swivel>22</swivel>
+	<heatup>60</heatup>
   <damage>
    <type>kinetic</type>
    <penetrate>100</penetrate>

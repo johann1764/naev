@@ -16,6 +16,7 @@
   <range>400</range>
   <energy>10</energy>
   <swivel>22</swivel>
+	<heatup>60</heatup>
   <damage>
    <type>energy</type>
    <penetrate>12</penetrate>

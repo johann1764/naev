@@ -19,6 +19,7 @@
   <range>250</range>
   <energy>50</energy>
   <swivel>22</swivel>
+	<heatup>60</heatup>
   <mining_rarity>1</mining_rarity>
   <damage>
    <type>armourbreaker</type>

@@ -24,6 +24,7 @@
   <energy>153</energy>
   <trackmin>5000</trackmin>
   <trackmax>20000</trackmax>
+	<heatup>60</heatup>
   <damage>
    <type>kinetic</type>
    <penetrate>90</penetrate>

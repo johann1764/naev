@@ -24,6 +24,7 @@
   <energy>12</energy>
   <trackmin>0</trackmin>
   <trackmax>3000</trackmax>
+	<heatup>60</heatup>
   <damage>
    <type>plasma</type>
    <penetrate>8</penetrate>

@@ -24,5 +24,6 @@
   <speed>65</speed>
   <energy>55</energy>
   <mass_limit>700</mass_limit>
+  <heatup>180</heatup>
  </specific>
 </outfit>

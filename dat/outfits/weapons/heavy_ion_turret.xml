@@ -24,6 +24,7 @@
   <energy>54</energy>
   <trackmin>2000</trackmin>
   <trackmax>8000</trackmax>
+	<heatup>60</heatup>
   <damage>
    <type>ion</type>
    <penetrate>48</penetrate>

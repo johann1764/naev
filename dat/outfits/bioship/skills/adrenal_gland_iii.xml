@@ -20,5 +20,6 @@
   <mass_limit>300</mass_limit>
   <time_mod>-25</time_mod>
   <time_speedup>25</time_speedup>
+  <heatup>60</heatup>
  </specific>
 </outfit>

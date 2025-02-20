@@ -27,6 +27,7 @@
   <trackmin>1000</trackmin>
   <trackmax>7000</trackmax>
   <swivel>26</swivel>
+	<heatup>60</heatup>
   <damage>
    <type>ion</type>
    <penetrate>45</penetrate>
