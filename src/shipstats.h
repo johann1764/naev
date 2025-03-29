@@ -145,10 +145,11 @@ typedef enum ShipStatsType_ {
                          damage). */
    /* Misc. */
    SS_TYPE_A_MASS,          /**< Ship mass. */
+   SS_TYPE_A_CPU,           /**< CPU usage, does not get multiplied.. */
    SS_TYPE_A_CPU_MAX,       /**< Maximum CPU modifier. */
    SS_TYPE_A_ENGINE_LIMIT,  /**< Engine's mass limit. */
    SS_TYPE_A_FUEL_REGEN,    /**< Fuel regeneration. */
-   SS_TYPE_A_ASTEROID_SCAN, /**< DIstance at which ship can gather informations
+   SS_TYPE_A_ASTEROID_SCAN, /**< Distance at which ship can gather informations
                                from asteroids. */
    SS_TYPE_A_NEBULA_VISIBILITY, /**< Bonus distance to nebula visibility. */
 
@@ -258,6 +259,7 @@ typedef struct ShipStats_ {
    double fuel_mod;       /**< Fuel capacity multiplier. */
    double fuel_usage_mod; /**< Fuel usage modifier. */
    double cpu_mod;        /**< CPU multiplier. */
+   double cpu;            /**< CPU usage, does not get multiplied. */
    double cpu_max;        /**< CPU modifier. */
    double absorb;         /**< Flat damage absorption. */
    double cooldown_mod;   /**< Ability cooldown mod. */
@@ -398,6 +400,7 @@ int ss_statsSet( ShipStats *s, const char *name, double value, int overwrite );
 ShipStatList *ss_statsSetList( ShipStatList *head, ShipStatsType type,
                                double value, int overwrite, int raw );
 double        ss_statsGet( const ShipStats *s, const char *name );
+double        ss_statsGetRaw( const ShipStats *s, ShipStatsType type );
 int  ss_statsGetLua( lua_State *L, const ShipStats *s, const char *name,
                      int internal );
 int  ss_statsGetLuaTable( lua_State *L, const ShipStats *s, int internal );

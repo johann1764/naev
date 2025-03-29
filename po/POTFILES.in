@@ -2867,6 +2867,7 @@ dat/bkg/taiomi.lua
 dat/board.lua
 dat/comm.lua
 dat/common.lua
+dat/constants.lua
 dat/effects/lua/fadeout.lua
 dat/effects/lua/hypergate_enter.lua
 dat/effects/lua/wormhole_enter.lua
@@ -3304,6 +3305,7 @@ dat/missions/tutorial/nelly03.lua
 dat/missions/tutorial/tutorial.lua
 dat/missions/wildspace/intro.lua
 dat/missions/wildspace/marker.lua
+dat/missions/yetmer/bounty.lua
 dat/missions/zalek/blackhole/zbh01.lua
 dat/missions/zalek/blackhole/zbh02.lua
 dat/missions/zalek/blackhole/zbh03.lua
